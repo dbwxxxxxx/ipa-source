@@ -1,0 +1,8 @@
+{
+  "name": "GitHub IPA 软件源",
+  "message": "尚未运行 GitHub Actions；请先运行 Update IPA source 工作流生成应用列表。",
+  "identifier": "owner.repository",
+  "sourceURL": "https://owner.github.io/repository/appstore.json",
+  "sourceicon": "https://github.githubassets.com/favicons/favicon.png",
+  "apps": []
+}
