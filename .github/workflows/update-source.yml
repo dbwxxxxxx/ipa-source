@@ -34,6 +34,8 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python3 generate_source.py
+      - name: Convert to AltStore source
+        run: python3 altstore_generator.py appstore.json appstore.json
       - name: Commit updated source
         run: |
           if git diff --quiet -- appstore.json; then
