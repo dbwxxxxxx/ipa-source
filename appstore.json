@@ -52,23 +52,23 @@
     {
       "name": "GestaltX",
       "bundleIdentifier": "com.huami.gestultx",
-      "developerName": "huami-dev",
+      "developerName": "huami1314",
       "localizedDescription": "English | [简体中文](https://github.com/huamidev/GestaltX/blob/main/CHANGELOG_ZH-CN.md)\n\nBuild `11140102`.\n\n### Added\n\n- App Audio Library: replace notification sounds with custom audio. Apps not shown in the list can use the capture guide to obtain their notification-sound paths.\n- Pairing & Device Connection: used to obtain required paths.\n\n### Changed\n\n- Case-insensitive cache UUID comparison (#131)\n- Reject trailing text in date fields (#132)\n- Share-inbox fallback (#133)\n- Validate backup metadata filenames (#134)\n- Reduce cache descriptor string-scan allocations (#135)\n- Reuse one preview snapshot for field search (#136)\n- Preserve field edits over layout presets (#137)\n- Preserve existing plist keys when editing fields (#138)\n- Reduce allocations in exact plist comparisons (#139)\n- Traverse document differences once (#140)\n- Fix Face ID failing after enabling Apple Intelligence (#128)\n- Add missing localization for #128 (#146)\n- Pairing paths are migrated when a reinstall moves the app data container.\n\n### Fixed\n\n- Fix pairing failure in side-loaded release builds.\n- Add the missing Face ID recovery localization strings.\n- Fix audio file selection in side-loaded builds.\n- Refresh captured sounds immediately and cache the app audio list.\n- Show LocalDevVPN guidance and stop capture when the tunnel does not connect.",
-      "iconURL": "https://avatars.githubusercontent.com/u/354314991?v=4",
+      "iconURL": "https://avatars.githubusercontent.com/u/99124359?v=4",
       "versions": [
         {
           "version": "1.1.1",
           "buildVersion": "11140102",
           "date": "2026-11-13T16:46:05Z",
           "localizedDescription": "English | [简体中文](https://github.com/huamidev/GestaltX/blob/main/CHANGELOG_ZH-CN.md)\n\nBuild `11140102`.\n\n### Added\n\n- App Audio Library: replace notification sounds with custom audio. Apps not shown in the list can use the capture guide to obtain their notification-sound paths.\n- Pairing & Device Connection: used to obtain required paths.\n\n### Changed\n\n- Case-insensitive cache UUID comparison (#131)\n- Reject trailing text in date fields (#132)\n- Share-inbox fallback (#133)\n- Validate backup metadata filenames (#134)\n- Reduce cache descriptor string-scan allocations (#135)\n- Reuse one preview snapshot for field search (#136)\n- Preserve field edits over layout presets (#137)\n- Preserve existing plist keys when editing fields (#138)\n- Reduce allocations in exact plist comparisons (#139)\n- Traverse document differences once (#140)\n- Fix Face ID failing after enabling Apple Intelligence (#128)\n- Add missing localization for #128 (#146)\n- Pairing paths are migrated when a reinstall moves the app data container.\n\n### Fixed\n\n- Fix pairing failure in side-loaded release builds.\n- Add the missing Face ID recovery localization strings.\n- Fix audio file selection in side-loaded builds.\n- Refresh captured sounds immediately and cache the app audio list.\n- Show LocalDevVPN guidance and stop capture when the tunnel does not connect.",
-          "downloadURL": "https://github.com/huami-dev/GestaltX/releases/download/v1.1.1/GestaltX_1.1.1.ipa",
+          "downloadURL": "https://github.com/huami1314/GestaltX/releases/download/v1.1.1/GestaltX_1.1.1.ipa",
           "size": 6774794
         }
       ],
       "version": "1.1.1",
       "versionDate": "2026-11-13T16:46:05Z",
       "versionDescription": "English | [简体中文](https://github.com/huamidev/GestaltX/blob/main/CHANGELOG_ZH-CN.md)\n\nBuild `11140102`.\n\n### Added\n\n- App Audio Library: replace notification sounds with custom audio. Apps not shown in the list can use the capture guide to obtain their notification-sound paths.\n- Pairing & Device Connection: used to obtain required paths.\n\n### Changed\n\n- Case-insensitive cache UUID comparison (#131)\n- Reject trailing text in date fields (#132)\n- Share-inbox fallback (#133)\n- Validate backup metadata filenames (#134)\n- Reduce cache descriptor string-scan allocations (#135)\n- Reuse one preview snapshot for field search (#136)\n- Preserve field edits over layout presets (#137)\n- Preserve existing plist keys when editing fields (#138)\n- Reduce allocations in exact plist comparisons (#139)\n- Traverse document differences once (#140)\n- Fix Face ID failing after enabling Apple Intelligence (#128)\n- Add missing localization for #128 (#146)\n- Pairing paths are migrated when a reinstall moves the app data container.\n\n### Fixed\n\n- Fix pairing failure in side-loaded release builds.\n- Add the missing Face ID recovery localization strings.\n- Fix audio file selection in side-loaded builds.\n- Refresh captured sounds immediately and cache the app audio list.\n- Show LocalDevVPN guidance and stop capture when the tunnel does not connect.",
-      "downloadURL": "https://github.com/huami-dev/GestaltX/releases/download/v1.1.1/GestaltX_1.1.1.ipa",
+      "downloadURL": "https://github.com/huami1314/GestaltX/releases/download/v1.1.1/GestaltX_1.1.1.ipa",
       "size": 6774794
     },
     {
@@ -163,23 +163,23 @@
       "name": "HGhub",
       "bundleIdentifier": "com.hghub.player",
       "developerName": "Minireel",
-      "localizedDescription": "## WHAT IS CHANGE\r\n本次更新重点改善播放响应与多集连播体验，并持续补齐部分插件宿主能力。\r\n\r\n- 播放与连播优化：减少重复请求，复用网络连接；提前准备下一集并预取部分媒体数据，让自动连播、手动选集和滑动切集更顺畅。\r\n- 播放状态修正：修复加载过程中偶尔显示为暂停的问题，改善切集时的状态反馈。\r\n- 手动检查更新：在「设置 → 关于」检查 GitHub Release。有新版本时可打开对应发布页面，自行下载安装；暂不提供自动检查或内置更新。\r\n- 播放能力探测：根据当前设备 WebView 的能力与实际播放路径识别格式、编码支持情况，统一插件播放、预加载和刷新时的能力信息。\r\n- 补齐 RSA 加密接口：支持 SPKI / PKCS#1 公钥、PKCS1 / OAEP-SHA1 / OAEP-SHA256 填充，以及 1024–8192 位密钥。\r\n- 插件开发资料同步：更新协议说明、支持状态、开发文档与 Agent 技能包。\r\n\r\n\r\n## 初期版本说明\r\nHGhub 目前处于初期开发阶段，功能和插件接口仍在完善，使用过程中可能遇到问题，欢迎反馈。\r\n\r\n**iOS、macOS 安装包尚未验证可用性。提供构建产物仅供尝试，不代表已完成安装、启动或播放验证。**\r\n\r\n## 下载说明\r\n- Windows：安装版 `.exe` 或便携版 `_portable.zip`。\r\n- Android：根据设备架构选择签名 `.apk`。\r\n- macOS（可用性未验证）：选择 `arm64`、`x64` 或 `universal` 的 `.dmg` / `.app.tar.gz`。\r\n- iOS（可用性未验证）：`_ios.ipa` 为未签名包，需要通过 TrollStore 或自行签名安装。\r\n- Linux：`.deb` 或 `.AppImage`。\r\n\r\nmacOS 构建未经过 Apple 开发者证书签名及公证；若系统拦截，请确认来源后执行：\r\n```bash\r\nsudo xattr -rd com.apple.quarantine /Applications/HGhub.app\r\n```\r\n\r\n**Full Changelog**: https://github.com/Minireel/HGhub/compare/v0.0.1...v0.0.2",
+      "localizedDescription": "## 初期版本说明\nHGhub 目前处于初期开发阶段，功能和插件接口仍在完善，使用过程中可能遇到问题，欢迎反馈。\n\n**iOS、macOS 安装包尚未验证可用性。提供构建产物仅供尝试，不代表已完成安装、启动或播放验证。**\n\n## 下载说明\n- Windows：安装版 `.exe` 或便携版 `_portable.zip`。\n- Android：根据设备架构选择签名 `.apk`。\n- macOS（可用性未验证）：选择 `arm64`、`x64` 或 `universal` 的 `.dmg` / `.app.tar.gz`。\n- iOS（可用性未验证）：`_ios.ipa` 为未签名包，需要通过 TrollStore 或自行签名安装。\n- Linux：`.deb` 或 `.AppImage`。\n\nmacOS 构建未经过 Apple 开发者证书签名及公证；若系统拦截，请确认来源后执行：\n```bash\nsudo xattr -rd com.apple.quarantine /Applications/HGhub.app\n```\n\n\n## What's Changed\n* fix: use permitted IPv4 when DNS includes blocked IPv6 by @qkzsky in https://github.com/Minireel/HGhub/pull/70\n\n## New Contributors\n* @qkzsky made their first contribution in https://github.com/Minireel/HGhub/pull/70\n\n**Full Changelog**: https://github.com/Minireel/HGhub/compare/v0.0.2...v0.0.3",
       "iconURL": "https://avatars.githubusercontent.com/u/328980256?v=4",
       "versions": [
         {
-          "version": "0.0.2",
-          "buildVersion": "0.0.2",
-          "date": "2026-11-16T12:11:22Z",
-          "localizedDescription": "## WHAT IS CHANGE\r\n本次更新重点改善播放响应与多集连播体验，并持续补齐部分插件宿主能力。\r\n\r\n- 播放与连播优化：减少重复请求，复用网络连接；提前准备下一集并预取部分媒体数据，让自动连播、手动选集和滑动切集更顺畅。\r\n- 播放状态修正：修复加载过程中偶尔显示为暂停的问题，改善切集时的状态反馈。\r\n- 手动检查更新：在「设置 → 关于」检查 GitHub Release。有新版本时可打开对应发布页面，自行下载安装；暂不提供自动检查或内置更新。\r\n- 播放能力探测：根据当前设备 WebView 的能力与实际播放路径识别格式、编码支持情况，统一插件播放、预加载和刷新时的能力信息。\r\n- 补齐 RSA 加密接口：支持 SPKI / PKCS#1 公钥、PKCS1 / OAEP-SHA1 / OAEP-SHA256 填充，以及 1024–8192 位密钥。\r\n- 插件开发资料同步：更新协议说明、支持状态、开发文档与 Agent 技能包。\r\n\r\n\r\n## 初期版本说明\r\nHGhub 目前处于初期开发阶段，功能和插件接口仍在完善，使用过程中可能遇到问题，欢迎反馈。\r\n\r\n**iOS、macOS 安装包尚未验证可用性。提供构建产物仅供尝试，不代表已完成安装、启动或播放验证。**\r\n\r\n## 下载说明\r\n- Windows：安装版 `.exe` 或便携版 `_portable.zip`。\r\n- Android：根据设备架构选择签名 `.apk`。\r\n- macOS（可用性未验证）：选择 `arm64`、`x64` 或 `universal` 的 `.dmg` / `.app.tar.gz`。\r\n- iOS（可用性未验证）：`_ios.ipa` 为未签名包，需要通过 TrollStore 或自行签名安装。\r\n- Linux：`.deb` 或 `.AppImage`。\r\n\r\nmacOS 构建未经过 Apple 开发者证书签名及公证；若系统拦截，请确认来源后执行：\r\n```bash\r\nsudo xattr -rd com.apple.quarantine /Applications/HGhub.app\r\n```\r\n\r\n**Full Changelog**: https://github.com/Minireel/HGhub/compare/v0.0.1...v0.0.2",
-          "downloadURL": "https://github.com/Minireel/HGhub/releases/download/v0.0.2/HGhub_0.0.2_ios.ipa",
-          "size": 5470825
+          "version": "0.0.3",
+          "buildVersion": "0.0.3",
+          "date": "2026-11-19T02:57:03Z",
+          "localizedDescription": "## 初期版本说明\nHGhub 目前处于初期开发阶段，功能和插件接口仍在完善，使用过程中可能遇到问题，欢迎反馈。\n\n**iOS、macOS 安装包尚未验证可用性。提供构建产物仅供尝试，不代表已完成安装、启动或播放验证。**\n\n## 下载说明\n- Windows：安装版 `.exe` 或便携版 `_portable.zip`。\n- Android：根据设备架构选择签名 `.apk`。\n- macOS（可用性未验证）：选择 `arm64`、`x64` 或 `universal` 的 `.dmg` / `.app.tar.gz`。\n- iOS（可用性未验证）：`_ios.ipa` 为未签名包，需要通过 TrollStore 或自行签名安装。\n- Linux：`.deb` 或 `.AppImage`。\n\nmacOS 构建未经过 Apple 开发者证书签名及公证；若系统拦截，请确认来源后执行：\n```bash\nsudo xattr -rd com.apple.quarantine /Applications/HGhub.app\n```\n\n\n## What's Changed\n* fix: use permitted IPv4 when DNS includes blocked IPv6 by @qkzsky in https://github.com/Minireel/HGhub/pull/70\n\n## New Contributors\n* @qkzsky made their first contribution in https://github.com/Minireel/HGhub/pull/70\n\n**Full Changelog**: https://github.com/Minireel/HGhub/compare/v0.0.2...v0.0.3",
+          "downloadURL": "https://github.com/Minireel/HGhub/releases/download/v0.0.3/HGhub_0.0.3_ios.ipa",
+          "size": 5492749
         }
       ],
-      "version": "0.0.2",
-      "versionDate": "2026-11-16T12:11:22Z",
-      "versionDescription": "## WHAT IS CHANGE\r\n本次更新重点改善播放响应与多集连播体验，并持续补齐部分插件宿主能力。\r\n\r\n- 播放与连播优化：减少重复请求，复用网络连接；提前准备下一集并预取部分媒体数据，让自动连播、手动选集和滑动切集更顺畅。\r\n- 播放状态修正：修复加载过程中偶尔显示为暂停的问题，改善切集时的状态反馈。\r\n- 手动检查更新：在「设置 → 关于」检查 GitHub Release。有新版本时可打开对应发布页面，自行下载安装；暂不提供自动检查或内置更新。\r\n- 播放能力探测：根据当前设备 WebView 的能力与实际播放路径识别格式、编码支持情况，统一插件播放、预加载和刷新时的能力信息。\r\n- 补齐 RSA 加密接口：支持 SPKI / PKCS#1 公钥、PKCS1 / OAEP-SHA1 / OAEP-SHA256 填充，以及 1024–8192 位密钥。\r\n- 插件开发资料同步：更新协议说明、支持状态、开发文档与 Agent 技能包。\r\n\r\n\r\n## 初期版本说明\r\nHGhub 目前处于初期开发阶段，功能和插件接口仍在完善，使用过程中可能遇到问题，欢迎反馈。\r\n\r\n**iOS、macOS 安装包尚未验证可用性。提供构建产物仅供尝试，不代表已完成安装、启动或播放验证。**\r\n\r\n## 下载说明\r\n- Windows：安装版 `.exe` 或便携版 `_portable.zip`。\r\n- Android：根据设备架构选择签名 `.apk`。\r\n- macOS（可用性未验证）：选择 `arm64`、`x64` 或 `universal` 的 `.dmg` / `.app.tar.gz`。\r\n- iOS（可用性未验证）：`_ios.ipa` 为未签名包，需要通过 TrollStore 或自行签名安装。\r\n- Linux：`.deb` 或 `.AppImage`。\r\n\r\nmacOS 构建未经过 Apple 开发者证书签名及公证；若系统拦截，请确认来源后执行：\r\n```bash\r\nsudo xattr -rd com.apple.quarantine /Applications/HGhub.app\r\n```\r\n\r\n**Full Changelog**: https://github.com/Minireel/HGhub/compare/v0.0.1...v0.0.2",
-      "downloadURL": "https://github.com/Minireel/HGhub/releases/download/v0.0.2/HGhub_0.0.2_ios.ipa",
-      "size": 5470825
+      "version": "0.0.3",
+      "versionDate": "2026-11-19T02:57:03Z",
+      "versionDescription": "## 初期版本说明\nHGhub 目前处于初期开发阶段，功能和插件接口仍在完善，使用过程中可能遇到问题，欢迎反馈。\n\n**iOS、macOS 安装包尚未验证可用性。提供构建产物仅供尝试，不代表已完成安装、启动或播放验证。**\n\n## 下载说明\n- Windows：安装版 `.exe` 或便携版 `_portable.zip`。\n- Android：根据设备架构选择签名 `.apk`。\n- macOS（可用性未验证）：选择 `arm64`、`x64` 或 `universal` 的 `.dmg` / `.app.tar.gz`。\n- iOS（可用性未验证）：`_ios.ipa` 为未签名包，需要通过 TrollStore 或自行签名安装。\n- Linux：`.deb` 或 `.AppImage`。\n\nmacOS 构建未经过 Apple 开发者证书签名及公证；若系统拦截，请确认来源后执行：\n```bash\nsudo xattr -rd com.apple.quarantine /Applications/HGhub.app\n```\n\n\n## What's Changed\n* fix: use permitted IPv4 when DNS includes blocked IPv6 by @qkzsky in https://github.com/Minireel/HGhub/pull/70\n\n## New Contributors\n* @qkzsky made their first contribution in https://github.com/Minireel/HGhub/pull/70\n\n**Full Changelog**: https://github.com/Minireel/HGhub/compare/v0.0.2...v0.0.3",
+      "downloadURL": "https://github.com/Minireel/HGhub/releases/download/v0.0.3/HGhub_0.0.3_ios.ipa",
+      "size": 5492749
     },
     {
       "name": "StikDebug",
