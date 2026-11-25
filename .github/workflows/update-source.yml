@@ -38,7 +38,9 @@ jobs:
         run: python3 altstore_generator.py appstore.json appstore.json
       - name: Commit updated source
         run: |
-          if git diff --quiet -- appstore.json; then
+          git add appstore.json
+          if [ -f release_notes_auto_zh.json ]; then git add release_notes_auto_zh.json; fi
+          if git diff --cached --quiet; then
             echo "No changes to appstore.json"
           else
             git config user.name "github-actions[bot]"
