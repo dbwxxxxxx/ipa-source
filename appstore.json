@@ -116,6 +116,28 @@
       "size": 23227816
     },
     {
+      "name": "poki",
+      "bundleIdentifier": "nz.zheha.poki",
+      "developerName": "JosssphZhou",
+      "localizedDescription": "使用创建时的私有权限保护桌面配对凭据，并在链接修改中继或配对设置之前添加确认提示。 （＃535，＃570）；欢迎来到 Poki 补丁 0.5.0！在此更新中，我们专注于让日常语音对话、初始设置和任务执行感觉更加流畅，其中包括重建的 Live Voice 主要升级、无需 API 密钥的直接 ChatGPT 登录、显着更快的电话操作以及跨您喜爱的应用程序的可视化结果卡。深入了解下面的所有细节。；主要变化\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.0-beta.1",
+      "iconURL": "https://avatars.githubusercontent.com/u/260232027?v=4",
+      "versions": [
+        {
+          "version": "0.5.0",
+          "buildVersion": "2500",
+          "date": "2026-11-24T10:29:25Z",
+          "localizedDescription": "使用创建时的私有权限保护桌面配对凭据，并在链接修改中继或配对设置之前添加确认提示。 （＃535，＃570）；欢迎来到 Poki 补丁 0.5.0！在此更新中，我们专注于让日常语音对话、初始设置和任务执行感觉更加流畅，其中包括重建的 Live Voice 主要升级、无需 API 密钥的直接 ChatGPT 登录、显着更快的电话操作以及跨您喜爱的应用程序的可视化结果卡。深入了解下面的所有细节。；主要变化\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.0-beta.1",
+          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.0-beta.1/Poki-external-0.5.0-2500.ipa",
+          "size": 127076289
+        }
+      ],
+      "version": "0.5.0",
+      "versionDate": "2026-11-24T10:29:25Z",
+      "versionDescription": "使用创建时的私有权限保护桌面配对凭据，并在链接修改中继或配对设置之前添加确认提示。 （＃535，＃570）；欢迎来到 Poki 补丁 0.5.0！在此更新中，我们专注于让日常语音对话、初始设置和任务执行感觉更加流畅，其中包括重建的 Live Voice 主要升级、无需 API 密钥的直接 ChatGPT 登录、显着更快的电话操作以及跨您喜爱的应用程序的可视化结果卡。深入了解下面的所有细节。；主要变化\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.0-beta.1",
+      "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.0-beta.1/Poki-external-0.5.0-2500.ipa",
+      "size": 127076289
+    },
+    {
       "name": "Erosion-CN",
       "bundleIdentifier": "com.jbdotparty.Erosion",
       "developerName": "Kianuni",
