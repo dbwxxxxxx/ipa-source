@@ -9,23 +9,23 @@
       "name": "dsh-Go",
       "bundleIdentifier": "io.github.ccch1mneyyy.dshgo",
       "developerName": "ccch1mneyyy",
-      "localizedDescription": "更新：新增一键语音、长按选字、远程对话加密备份与网页版；优化酒馆脚本及大卡性能，加入后台保护和新桌宠。提示：部分新功能尚未在各种真机完整验证。\nRelease 原文：https://github.com/ccch1mneyyy/dsh-Go/releases/tag/v1.3.0",
+      "localizedDescription": "[iOS IPA](https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ios-unsigned.ipa) · 未签名 / Unsigned；下载 · Downloads；[鸿蒙 HarmonyOS HAP](https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ohos-unsigned.hap) · 未签名旁加载包 / Unsigned sideload build\nRelease 原文：https://github.com/ccch1mneyyy/dsh-Go/releases/tag/v1.4.0",
       "iconURL": "https://avatars.githubusercontent.com/u/268149062?v=4",
       "versions": [
         {
-          "version": "1.3.0",
+          "version": "1.4.0",
           "buildVersion": "1",
-          "date": "2026-11-20T20:04:40Z",
-          "localizedDescription": "更新：新增一键语音、长按选字、远程对话加密备份与网页版；优化酒馆脚本及大卡性能，加入后台保护和新桌宠。提示：部分新功能尚未在各种真机完整验证。\nRelease 原文：https://github.com/ccch1mneyyy/dsh-Go/releases/tag/v1.3.0",
-          "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.3.0/dsh-go-1.3.0-ios-unsigned.ipa",
-          "size": 126020561
+          "date": "2026-11-25T14:53:25Z",
+          "localizedDescription": "[iOS IPA](https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ios-unsigned.ipa) · 未签名 / Unsigned；下载 · Downloads；[鸿蒙 HarmonyOS HAP](https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ohos-unsigned.hap) · 未签名旁加载包 / Unsigned sideload build\nRelease 原文：https://github.com/ccch1mneyyy/dsh-Go/releases/tag/v1.4.0",
+          "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ios-unsigned.ipa",
+          "size": 129653636
         }
       ],
-      "version": "1.3.0",
-      "versionDate": "2026-11-20T20:04:40Z",
-      "versionDescription": "更新：新增一键语音、长按选字、远程对话加密备份与网页版；优化酒馆脚本及大卡性能，加入后台保护和新桌宠。提示：部分新功能尚未在各种真机完整验证。\nRelease 原文：https://github.com/ccch1mneyyy/dsh-Go/releases/tag/v1.3.0",
-      "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.3.0/dsh-go-1.3.0-ios-unsigned.ipa",
-      "size": 126020561
+      "version": "1.4.0",
+      "versionDate": "2026-11-25T14:53:25Z",
+      "versionDescription": "[iOS IPA](https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ios-unsigned.ipa) · 未签名 / Unsigned；下载 · Downloads；[鸿蒙 HarmonyOS HAP](https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ohos-unsigned.hap) · 未签名旁加载包 / Unsigned sideload build\nRelease 原文：https://github.com/ccch1mneyyy/dsh-Go/releases/tag/v1.4.0",
+      "downloadURL": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.4.0/dsh-go-1.4.0-ios-unsigned.ipa",
+      "size": 129653636
     },
     {
       "name": "Mori",
