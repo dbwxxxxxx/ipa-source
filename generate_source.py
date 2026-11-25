@@ -59,6 +59,14 @@ def manual_repos(path):
         repos.append(value)
     return repos
 
+def eligible_release(full_name, release):
+    if release.get("draft"): return False
+    if full_name.lower() == "josssphzhou/poki":
+        tag = str(release.get("tag_name") or "")
+        if re.search(r"(?:^|[._ -])(?:pre[._ -]?)?alpha(?:[._ -]?\d+)?(?:$|[._ -])", tag, re.IGNORECASE): return False
+        if re.search(r"(?:^|[._ -])beta(?:[._ -]?\d+)?(?:$|[._ -])", tag, re.IGNORECASE): return True
+    return not release.get("prerelease")
+
 def build():
     repository=os.environ.get("GITHUB_REPOSITORY", "")
     if not re.fullmatch(r"[^/]+/[^/]+", repository): raise APIError("GITHUB_REPOSITORY must be owner/repo")
@@ -78,7 +86,7 @@ def build():
         except APIError as e:
             if "not found" in str(e).lower(): print(f"SKIP unavailable repo/release: {full_name}", file=sys.stderr); continue
             failures.append(f"{full_name}: {e}"); continue
-        stable=[r for r in releases if not r.get("draft") and not r.get("prerelease")]
+        stable=[r for r in releases if eligible_release(full_name, r)]
         stable.sort(key=lambda r: r.get("published_at") or r.get("created_at") or "", reverse=True)
         rel = next((r for r in stable if any(str(a.get("name", "")).lower().endswith(".ipa") and a.get("browser_download_url") for a in r.get("assets", []))), None)
         if rel is None: continue
@@ -91,7 +99,7 @@ def build():
             aname=asset.get("name", "app.ipa")
             apps.append({"name": f"{repo.get('name',full_name.split('/')[-1])} — {aname}", "type":0, "version":str(rel.get("tag_name") or rel.get("name") or "未知"), "versionDate":rel.get("published_at") or rel.get("created_at") or "", "versionDescription":description, "lock":"0", "downloadURL":asset["browser_download_url"], "isLanZouCloud":"0", "iconURL":icon, "tintColor":"3478F6", "size":str(int(asset.get("size") or 0))})
     if failures: raise APIError("扫描未完整完成，为防止清空旧源而中止写入：\n"+"\n".join(failures))
-    source={"name":"GitHub IPA 软件源", "message":"由 GitHub Actions 自动更新；应用来自各项目最新稳定版 Release。请自行核验来源及设备兼容性。", "identifier":repository.lower().replace("/","."), "sourceURL":f"https://{owner}.github.io/{repository.split('/',1)[1]}/appstore.json", "sourceicon":"https://github.githubassets.com/favicons/favicon.png", "apps":apps}
+    source={"name":"GitHub IPA 软件源", "message":"由 GitHub Actions 自动更新；应用来自各项目最新稳定版 Release；Poki 另含 Beta 测试版。请自行核验来源及设备兼容性。", "identifier":repository.lower().replace("/","."), "sourceURL":f"https://{owner}.github.io/{repository.split('/',1)[1]}/appstore.json", "sourceicon":"https://github.githubassets.com/favicons/favicon.png", "apps":apps}
     output=Path("appstore.json"); temp=output.with_suffix(".json.tmp")
     temp.write_text(json.dumps(source,ensure_ascii=False,indent=2)+"\n",encoding="utf-8"); temp.replace(output)
     print(f"Wrote {output}: {len(apps)} IPA entries from {len(repos)} public repositories")
