@@ -1,21 +1,17 @@
 name: Update IPA source
-
 on:
   push:
     branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "17 */2 * * *"
-
 permissions:
   contents: write
   pages: write
   id-token: write
-
 concurrency:
   group: update-ipa-source
   cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -57,6 +53,15 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
+      - name: Wait for artifact indexing
+        run: sleep 30
       - name: Deploy Pages
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Wait before retrying deployment
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+      - name: Retry Pages deployment
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
