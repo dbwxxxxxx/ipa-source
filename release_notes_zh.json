@@ -1,0 +1,15 @@
+{
+  "ccch1mneyyy/dsh-Go@v1.3.0": "更新：新增一键语音、长按选字、远程对话加密备份与网页版；优化酒馆脚本及大卡性能，加入后台保护和新桌宠。提示：部分新功能尚未在各种真机完整验证。",
+  "H4CNPE/YumEdit@v1.4.0": "更新：修复旧机型设备身份误判；可选择美版地区覆写、导入原始设备参数，并优化首页。注意：旧机型流程可能导致听写失效，请先备份；IPA 未签名，需 App Group 权限。",
+  "huami1314/GestaltX@v1.1.1": "更新：新增应用通知音频库和设备配对功能；修复侧载版配对、音频选择及开启苹果智能后 Face ID 相关问题。",
+  "imxieyi/Kernarium@andarium-1.1": "更新：支持 Magisk root、默认启用 AOT 加速、可选 120Hz、无障碍与更多启动方式；修复联网和前置相机问题。注意：要求 iOS 26 或以上，部分内存权限依赖签名配置。",
+  "jhaizhou-ops/S2Arm@v0.6.10": "更新：修复 iPhone/iPad 联机发现与即时快照卡首帧；新增 Switch 2 麦克风、竖屏自动分屏和复用导入的签名证书。与 Switch 联机需在设置中选择「与 Switch 联机」。",
+  "Kianuni/Erosion-CN@v1.0.6": "更新：新增去广告白名单及手动管理，识别淘宝开屏路径，并提示新设备原生电池循环信息。注意：iOS 27.3 beta 2 起漏洞已封堵；签名需保留 App Group 权限。",
+  "kolbicz/WQFiles@v0.9.20": "更新：支持从 Apps 页面导入 Apps Manager 的 .adbk 备份；改进占用中文件提示和数据库及其关联文件的完整性保护。注意：不支持 iOS 27.3 beta 2 及之后版本，签名需保留 App Group 权限。",
+  "Leviidev/Husk@3.4": "更新：提升 Android 应用、图形与框架兼容性，减少内存不足崩溃；修复 iOS 27 导入证书崩溃。注意：部分游戏需 JIT；依赖 Google Play 服务的应用仍无法运行。",
+  "mengangs/ipadn@v2.3.5": "更新：修复 iOS 16 和 iOS 27 版本记录闪退及 iPad 导航问题；TestFlight 支持 Apple TV 测试包，商店地区可自定义排序。注意：IPA 未签名，TestFlight 功能为实验性。",
+  "OpenMinis/iCTRL@v1.98.16": "更新：新增单指连续拖动路径，支持无签名构建 IPA。注意：Runner 是必需的自动化引擎，iCTRL 为可选辅助程序；安装需签名并挂载开发者磁盘映像。",
+  "StikDebug/StikDebug@3.2.2": "更新：修复 Utsuro、Henge 和 MeloCafe 相关问题。",
+  "coflyn/Mori@v4.6.1": "更新：支持将下载的图片和视频直接存入 iOS 相册，识别国内网盘分享链接中的提取码；修复 Bilibili 下载和输入框自动放大问题，优化历史记录及图库内存占用。",
+  "Kianuni/Erosion-CN@v1.0.7": "更新：扩充淘宝、京东、大众点评、中国移动、腾讯视频、番茄小说及携程的开屏广告路径识别，补全对应应用名称。注意：iOS 27.3 beta 2 起漏洞已封堵；签名时需保留 App Group 权限。"
+}

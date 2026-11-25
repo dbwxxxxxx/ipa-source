@@ -4,6 +4,7 @@ from __future__ import annotations
 import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from release_notes import release_note
 
 API = "https://api.github.com"
 HEADERS = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "ipa-source-build/1.0"}
@@ -82,7 +83,9 @@ def build():
         rel = next((r for r in stable if any(str(a.get("name", "")).lower().endswith(".ipa") and a.get("browser_download_url") for a in r.get("assets", []))), None)
         if rel is None: continue
         assets=[a for a in rel.get("assets",[]) if str(a.get("name","")).lower().endswith(".ipa") and a.get("browser_download_url")]
-        description=(rel.get("body") or "").strip() or f"Release {rel.get('tag_name','')} from {full_name}"
+        tag=str(rel.get("tag_name") or "")
+        release_url=rel.get("html_url") or f"https://github.com/{full_name}/releases/tag/{urllib.parse.quote(tag, safe='')}"
+        description=release_note(full_name, tag, rel.get("body") or "", release_url)
         for asset in assets:
             # Each IPA is an independent selectable entry; do not imply variants are interchangeable.
             aname=asset.get("name", "app.ipa")

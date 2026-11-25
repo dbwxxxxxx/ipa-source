@@ -5,6 +5,7 @@ import argparse, json, logging, os, re, sys, tempfile, urllib.error, urllib.pars
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from release_notes import release_note
 
 LOG = logging.getLogger("altstore_generator")
 MAX_REQUESTS = 80
@@ -143,7 +144,16 @@ def build(source_path="appstore.json", output_path="altstore-source.json"):
         # A repository owner's avatar is used only as a visual placeholder, not a verified app icon.
         parts=urllib.parse.urlparse(url).path.strip('/').split('/')
         developer=parts[0] if urllib.parse.urlparse(url).hostname == 'github.com' and len(parts)>=2 else 'Unknown Developer'
-        notes=str(item.get("localizedDescription") or item.get("versionDescription") or "")
+        notes=str(item.get("localizedDescription") or item.get("versionDescription") or "").strip()
+        # Current appstore entries already carry a concise Chinese abstract and attribution.
+        # For legacy inputs, don't pass English prose through as if it were translated.
+        if "Release 原文：" not in notes:
+            release_match=re.search(r"https://github\.com/([^/]+/[^/]+)/releases/(?:tag|download)/([^/\s?#]+)",url)
+            if release_match:
+                repo,tag=release_match.groups()
+                notes=release_note(repo,urllib.parse.unquote(tag),notes,f"https://github.com/{repo}/releases/tag/{tag}")
+            elif not notes:
+                notes="暂无可靠中文摘要"
         date=_date(item.get("versionDate"))
         size=int(item.get("size") or 0)
         icon=item.get("appIconURL") or item.get("iconURL") or "https://github.githubassets.com/favicons/favicon.png"
