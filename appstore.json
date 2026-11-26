@@ -204,6 +204,28 @@
       "size": 142303569
     },
     {
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "developerName": "LiveContainer",
+      "localizedDescription": "英文更新摘要翻译暂不可用\nRelease 原文：https://github.com/LiveContainer/LiveContainer/releases/tag/3.8.0",
+      "iconURL": "https://avatars.githubusercontent.com/u/206676373?v=4",
+      "versions": [
+        {
+          "version": "3.8.0",
+          "buildVersion": "3.8.0",
+          "date": "2026-07-17T07:44:20Z",
+          "localizedDescription": "英文更新摘要翻译暂不可用\nRelease 原文：https://github.com/LiveContainer/LiveContainer/releases/tag/3.8.0",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer%2BSideStore.ipa",
+          "size": 35403538
+        }
+      ],
+      "version": "3.8.0",
+      "versionDate": "2026-07-17T07:44:20Z",
+      "versionDescription": "英文更新摘要翻译暂不可用\nRelease 原文：https://github.com/LiveContainer/LiveContainer/releases/tag/3.8.0",
+      "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer%2BSideStore.ipa",
+      "size": 35403538
+    },
+    {
       "name": "ipadn",
       "bundleIdentifier": "app.local.iPadn",
       "developerName": "mengangs",
