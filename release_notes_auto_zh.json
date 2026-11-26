@@ -10,5 +10,11 @@
     "tag": "v0.9.30",
     "body_sha256": "94ff18d7170c88da54112416eeaba28a1645f32362dead738f7837ee4d6b3b34",
     "summary": "> 要求：iOS 26.0 – 26.7.2，或 iOS 27.0 至 27.3 beta 1。 不支持：iOS 27.3 beta 2 及更高版本，其中 Apple 修补了 badquery。在 iOS 27.0.1、27.2.1、27.3 beta 1（经用户确认）和 26.7.1 上测试；请参阅[测试的设备](https://github.com/kolbicz/WQFiles#tested-devices)。；> 需求：一个保持App Group权限的侧载工具；请参阅自述文件中的[签名](https://github.com/kolbicz/WQFiles#signing-the-app-group)。；更糟糕的查询文件 0.9.30"
+  },
+  "JosssphZhou/poki@app-0.5.1-beta.1": {
+    "repo": "JosssphZhou/poki",
+    "tag": "app-0.5.1-beta.1",
+    "body_sha256": "d4cb840325d354028cd089715f2747a1af7de4aa1f167fbc9fbc57780373258f",
+    "summary": "设置后保持 Poki 打开 Apple 帐户登录提示，获得 7 天免费签名安装，从 Poki 设置中预填写 Apple 帐户，以便 Poki 可以在您的 iPhone 上自动更新。感谢@ZhehanZhang (#744)。；重新设计了从 Loopback（已安装的代理应用程序检测和 App Store 中的免费 LocalDevVPN）到 Poki Loopback 快捷方式、后台位置设置和模型帐户的分步指导设置，并配有统一的设置页面和 Guide Me 演练。感谢@ZhehanZhang (#649)。；远程 MCP 连接器（设置 > 连接器），带有 Notion、Linear、GitHub、Atlassian、Asana、Canva、Stripe 和 Hugging Face 的内置预设，以及带有实时服务器检查、多帐户支持、每个帐户批准模式和每个工具切换的两步添加自定义连接器设置。感谢@ZhehanZhang (#649, #652)。"
   }
 }

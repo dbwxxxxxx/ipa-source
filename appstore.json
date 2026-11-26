@@ -119,23 +119,23 @@
       "name": "poki",
       "bundleIdentifier": "nz.zheha.poki",
       "developerName": "JosssphZhou",
-      "localizedDescription": "更新：重建实时语音，支持直接使用 ChatGPT 账号登录；加快手机操作，新增多应用结果卡。注意：本版本为测试版。\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.0-beta.1",
+      "localizedDescription": "设置后保持 Poki 打开 Apple 帐户登录提示，获得 7 天免费签名安装，从 Poki 设置中预填写 Apple 帐户，以便 Poki 可以在您的 iPhone 上自动更新。感谢@ZhehanZhang (#744)。；重新设计了从 Loopback（已安装的代理应用程序检测和 App Store 中的免费 LocalDevVPN）到 Poki Loopback 快捷方式、后台位置设置和模型帐户的分步指导设置，并配有统一的设置页面和 Guide Me 演练。感谢@ZhehanZhang (#649)。；远程 MCP 连接器（设置 > 连接器），带有 Notion、Linear、GitHub、Atlassian、Asana、Canva、Stripe 和 Hugging Face 的内置预设，以及带有实时服务器检查、多帐户支持、每个帐户批准模式和每个工具切换的两步添加自定义连接器设置。感谢@ZhehanZhang (#649, #652)。\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1-beta.1",
       "iconURL": "https://avatars.githubusercontent.com/u/260232027?v=4",
       "versions": [
         {
-          "version": "0.5.0",
-          "buildVersion": "2500",
-          "date": "2026-11-24T10:29:25Z",
-          "localizedDescription": "更新：重建实时语音，支持直接使用 ChatGPT 账号登录；加快手机操作，新增多应用结果卡。注意：本版本为测试版。\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.0-beta.1",
-          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.0-beta.1/Poki-external-0.5.0-2500.ipa",
-          "size": 127076289
+          "version": "0.5.1",
+          "buildVersion": "2912",
+          "date": "2026-11-26T18:15:35Z",
+          "localizedDescription": "设置后保持 Poki 打开 Apple 帐户登录提示，获得 7 天免费签名安装，从 Poki 设置中预填写 Apple 帐户，以便 Poki 可以在您的 iPhone 上自动更新。感谢@ZhehanZhang (#744)。；重新设计了从 Loopback（已安装的代理应用程序检测和 App Store 中的免费 LocalDevVPN）到 Poki Loopback 快捷方式、后台位置设置和模型帐户的分步指导设置，并配有统一的设置页面和 Guide Me 演练。感谢@ZhehanZhang (#649)。；远程 MCP 连接器（设置 > 连接器），带有 Notion、Linear、GitHub、Atlassian、Asana、Canva、Stripe 和 Hugging Face 的内置预设，以及带有实时服务器检查、多帐户支持、每个帐户批准模式和每个工具切换的两步添加自定义连接器设置。感谢@ZhehanZhang (#649, #652)。\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1-beta.1",
+          "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.1-beta.1/Poki-external-0.5.1-2912.ipa",
+          "size": 139662091
         }
       ],
-      "version": "0.5.0",
-      "versionDate": "2026-11-24T10:29:25Z",
-      "versionDescription": "更新：重建实时语音，支持直接使用 ChatGPT 账号登录；加快手机操作，新增多应用结果卡。注意：本版本为测试版。\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.0-beta.1",
-      "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.0-beta.1/Poki-external-0.5.0-2500.ipa",
-      "size": 127076289
+      "version": "0.5.1",
+      "versionDate": "2026-11-26T18:15:35Z",
+      "versionDescription": "设置后保持 Poki 打开 Apple 帐户登录提示，获得 7 天免费签名安装，从 Poki 设置中预填写 Apple 帐户，以便 Poki 可以在您的 iPhone 上自动更新。感谢@ZhehanZhang (#744)。；重新设计了从 Loopback（已安装的代理应用程序检测和 App Store 中的免费 LocalDevVPN）到 Poki Loopback 快捷方式、后台位置设置和模型帐户的分步指导设置，并配有统一的设置页面和 Guide Me 演练。感谢@ZhehanZhang (#649)。；远程 MCP 连接器（设置 > 连接器），带有 Notion、Linear、GitHub、Atlassian、Asana、Canva、Stripe 和 Hugging Face 的内置预设，以及带有实时服务器检查、多帐户支持、每个帐户批准模式和每个工具切换的两步添加自定义连接器设置。感谢@ZhehanZhang (#649, #652)。\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1-beta.1",
+      "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.1-beta.1/Poki-external-0.5.1-2912.ipa",
+      "size": 139662091
     },
     {
       "name": "Erosion-CN",
