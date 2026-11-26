@@ -4,5 +4,11 @@
     "tag": "app-0.5.0-beta.1",
     "body_sha256": "49c4ff221be55d35caa28a83abd80abe5837500df6126f938e34f05afb31d9a2",
     "summary": "使用创建时的私有权限保护桌面配对凭据，并在链接修改中继或配对设置之前添加确认提示。 （＃535，＃570）；欢迎来到 Poki 补丁 0.5.0！在此更新中，我们专注于让日常语音对话、初始设置和任务执行感觉更加流畅，其中包括重建的 Live Voice 主要升级、无需 API 密钥的直接 ChatGPT 登录、显着更快的电话操作以及跨您喜爱的应用程序的可视化结果卡。深入了解下面的所有细节。；主要变化"
+  },
+  "kolbicz/WQFiles@v0.9.30": {
+    "repo": "kolbicz/WQFiles",
+    "tag": "v0.9.30",
+    "body_sha256": "94ff18d7170c88da54112416eeaba28a1645f32362dead738f7837ee4d6b3b34",
+    "summary": "> 要求：iOS 26.0 – 26.7.2，或 iOS 27.0 至 27.3 beta 1。 不支持：iOS 27.3 beta 2 及更高版本，其中 Apple 修补了 badquery。在 iOS 27.0.1、27.2.1、27.3 beta 1（经用户确认）和 26.7.1 上测试；请参阅[测试的设备](https://github.com/kolbicz/WQFiles#tested-devices)。；> 需求：一个保持App Group权限的侧载工具；请参阅自述文件中的[签名](https://github.com/kolbicz/WQFiles#signing-the-app-group)。；更糟糕的查询文件 0.9.30"
   }
 }
