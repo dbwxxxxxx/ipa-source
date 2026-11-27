@@ -119,21 +119,21 @@
       "name": "poki",
       "bundleIdentifier": "nz.zheha.poki",
       "developerName": "JosssphZhou",
-      "localizedDescription": "英文更新摘要翻译暂不可用\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1",
+      "localizedDescription": "欢迎来到 Poki 补丁 0.5.1！在此更新中，我们专注于使首次设置、日常环境、模型切换和应用程序连接变得更加简单，主要包括重新设计的引导设置、始终在线的屏幕历史记录和感官、设备上的本地模型和 GPT-6.2 支持、适用于您最喜欢的工具和计算机的连接器以及刷新的设置体验。深入了解下面的所有细节。；主要变化；最简单的首次设置\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1",
       "iconURL": "https://avatars.githubusercontent.com/u/260232027?v=4",
       "versions": [
         {
           "version": "0.5.1",
           "buildVersion": "2912",
           "date": "2026-11-27T05:36:09Z",
-          "localizedDescription": "英文更新摘要翻译暂不可用\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1",
+          "localizedDescription": "欢迎来到 Poki 补丁 0.5.1！在此更新中，我们专注于使首次设置、日常环境、模型切换和应用程序连接变得更加简单，主要包括重新设计的引导设置、始终在线的屏幕历史记录和感官、设备上的本地模型和 GPT-6.2 支持、适用于您最喜欢的工具和计算机的连接器以及刷新的设置体验。深入了解下面的所有细节。；主要变化；最简单的首次设置\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1",
           "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.1/Poki-external-0.5.1-2912.ipa",
           "size": 139662091
         }
       ],
       "version": "0.5.1",
       "versionDate": "2026-11-27T05:36:09Z",
-      "versionDescription": "英文更新摘要翻译暂不可用\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1",
+      "versionDescription": "欢迎来到 Poki 补丁 0.5.1！在此更新中，我们专注于使首次设置、日常环境、模型切换和应用程序连接变得更加简单，主要包括重新设计的引导设置、始终在线的屏幕历史记录和感官、设备上的本地模型和 GPT-6.2 支持、适用于您最喜欢的工具和计算机的连接器以及刷新的设置体验。深入了解下面的所有细节。；主要变化；最简单的首次设置\nRelease 原文：https://github.com/JosssphZhou/poki/releases/tag/app-0.5.1",
       "downloadURL": "https://github.com/JosssphZhou/poki/releases/download/app-0.5.1/Poki-external-0.5.1-2912.ipa",
       "size": 139662091
     },

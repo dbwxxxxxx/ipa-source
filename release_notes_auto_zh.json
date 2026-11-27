@@ -16,5 +16,11 @@
     "tag": "app-0.5.1-beta.1",
     "body_sha256": "d4cb840325d354028cd089715f2747a1af7de4aa1f167fbc9fbc57780373258f",
     "summary": "设置后保持 Poki 打开 Apple 帐户登录提示，获得 7 天免费签名安装，从 Poki 设置中预填写 Apple 帐户，以便 Poki 可以在您的 iPhone 上自动更新。感谢@ZhehanZhang (#744)。；重新设计了从 Loopback（已安装的代理应用程序检测和 App Store 中的免费 LocalDevVPN）到 Poki Loopback 快捷方式、后台位置设置和模型帐户的分步指导设置，并配有统一的设置页面和 Guide Me 演练。感谢@ZhehanZhang (#649)。；远程 MCP 连接器（设置 > 连接器），带有 Notion、Linear、GitHub、Atlassian、Asana、Canva、Stripe 和 Hugging Face 的内置预设，以及带有实时服务器检查、多帐户支持、每个帐户批准模式和每个工具切换的两步添加自定义连接器设置。感谢@ZhehanZhang (#649, #652)。"
+  },
+  "JosssphZhou/poki@app-0.5.1": {
+    "repo": "JosssphZhou/poki",
+    "tag": "app-0.5.1",
+    "body_sha256": "a2835b37e070eca33ed8999f7d94b25b8bf4023747166d5828d696875ebaf362",
+    "summary": "欢迎来到 Poki 补丁 0.5.1！在此更新中，我们专注于使首次设置、日常环境、模型切换和应用程序连接变得更加简单，主要包括重新设计的引导设置、始终在线的屏幕历史记录和感官、设备上的本地模型和 GPT-6.2 支持、适用于您最喜欢的工具和计算机的连接器以及刷新的设置体验。深入了解下面的所有细节。；主要变化；最简单的首次设置"
   }
 }
