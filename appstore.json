@@ -141,23 +141,23 @@
       "name": "Erosion-CN",
       "bundleIdentifier": "com.jbdotparty.Erosion",
       "developerName": "Kianuni",
-      "localizedDescription": "更新：扩充淘宝、京东、大众点评、中国移动、腾讯视频、番茄小说及携程的开屏广告路径识别，补全对应应用名称。注意：iOS 27.3 beta 2 起漏洞已封堵；签名时需保留 App Group 权限。\nRelease 原文：https://github.com/Kianuni/Erosion-CN/releases/tag/v1.0.7",
+      "localizedDescription": "> System Compatibility / 系统兼容性提示；> - Supported / 完整支持：iOS / iPadOS 27.0 – 27.2.1 and 27.3 beta 1 (24C503).；> - Patched / 已封堵：Apple patched worsequery starting in iOS 27.3 beta 2 (24C5049d+). Do NOT update past 27.3 beta 1 if you rely on Erosion-CN.\nRelease 原文：https://github.com/Kianuni/Erosion-CN/releases/tag/v1.0.8",
       "iconURL": "https://avatars.githubusercontent.com/u/354704145?v=4",
       "versions": [
         {
-          "version": "1.0.7",
-          "buildVersion": "32",
-          "date": "2026-11-25T03:13:04Z",
-          "localizedDescription": "更新：扩充淘宝、京东、大众点评、中国移动、腾讯视频、番茄小说及携程的开屏广告路径识别，补全对应应用名称。注意：iOS 27.3 beta 2 起漏洞已封堵；签名时需保留 App Group 权限。\nRelease 原文：https://github.com/Kianuni/Erosion-CN/releases/tag/v1.0.7",
-          "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.7/Erosion_v1.0.7_Bilingual.ipa",
-          "size": 6948364
+          "version": "1.0.8",
+          "buildVersion": "33",
+          "date": "2026-11-28T02:48:12Z",
+          "localizedDescription": "> System Compatibility / 系统兼容性提示；> - Supported / 完整支持：iOS / iPadOS 27.0 – 27.2.1 and 27.3 beta 1 (24C503).；> - Patched / 已封堵：Apple patched worsequery starting in iOS 27.3 beta 2 (24C5049d+). Do NOT update past 27.3 beta 1 if you rely on Erosion-CN.\nRelease 原文：https://github.com/Kianuni/Erosion-CN/releases/tag/v1.0.8",
+          "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.8/Erosion_v1.0.8_Bilingual.ipa",
+          "size": 7081576
         }
       ],
-      "version": "1.0.7",
-      "versionDate": "2026-11-25T03:13:04Z",
-      "versionDescription": "更新：扩充淘宝、京东、大众点评、中国移动、腾讯视频、番茄小说及携程的开屏广告路径识别，补全对应应用名称。注意：iOS 27.3 beta 2 起漏洞已封堵；签名时需保留 App Group 权限。\nRelease 原文：https://github.com/Kianuni/Erosion-CN/releases/tag/v1.0.7",
-      "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.7/Erosion_v1.0.7_Bilingual.ipa",
-      "size": 6948364
+      "version": "1.0.8",
+      "versionDate": "2026-11-28T02:48:12Z",
+      "versionDescription": "> System Compatibility / 系统兼容性提示；> - Supported / 完整支持：iOS / iPadOS 27.0 – 27.2.1 and 27.3 beta 1 (24C503).；> - Patched / 已封堵：Apple patched worsequery starting in iOS 27.3 beta 2 (24C5049d+). Do NOT update past 27.3 beta 1 if you rely on Erosion-CN.\nRelease 原文：https://github.com/Kianuni/Erosion-CN/releases/tag/v1.0.8",
+      "downloadURL": "https://github.com/Kianuni/Erosion-CN/releases/download/v1.0.8/Erosion_v1.0.8_Bilingual.ipa",
+      "size": 7081576
     },
     {
       "name": "WQFiles",
